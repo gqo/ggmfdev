@@ -1,12 +1,14 @@
 package main
 
 import (
+	"html/template"
 	"log"
 	"net/http"
 	"strconv"
 )
 
 func main() {
+	log.Println("main: main(): Setting up website.")
 	httpPort := 8080
 	portStr := ":" + strconv.Itoa(httpPort)
 	fs := http.FileServer(http.Dir("assets/"))
@@ -15,7 +17,9 @@ func main() {
 	http.HandleFunc("/", indexHandler)
 	http.HandleFunc("/favicon.ico", faviconHandler)
 	http.HandleFunc("/about", aboutHandler)
+	http.HandleFunc("/music", musicHandler)
 
+	log.Println("main: main(): Finished. Beginning execution.")
 	log.Fatal(http.ListenAndServe(portStr, nil))
 }
 
@@ -33,4 +37,10 @@ func faviconHandler(w http.ResponseWriter, r *http.Request) {
 
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, "./web/static/about.html")
+}
+
+func musicHandler(w http.ResponseWriter, r *http.Request) {
+	t := template.Must(template.ParseFiles("./web/template/music.html"))
+	Data := getAlbum()
+	t.Execute(w, Data)
 }
