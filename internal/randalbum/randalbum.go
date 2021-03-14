@@ -1,4 +1,4 @@
-package main
+package randalbum
 
 import (
 	"bufio"
@@ -23,7 +23,8 @@ type albums struct {
 
 var albms albums
 
-func getAlbum() Album {
+// GetAlbum returns a random album from a known CSV
+func GetAlbum() Album {
 	r := rand.New(rand.NewSource(time.Now().UnixNano()))
 	n := r.Intn(albms.length)
 
@@ -32,7 +33,7 @@ func getAlbum() Album {
 
 func init() {
 	log.Println("randalbum: init(): Starting album data initialization.")
-	file, err := os.Open("./assets/docs/albums.csv")
+	file, err := os.Open("../../assets/docs/albums.csv")
 	if err != nil {
 		log.Println("randalbum: init(): Could not open csv file.")
 	}
