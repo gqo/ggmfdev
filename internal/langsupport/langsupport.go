@@ -6,6 +6,14 @@ import (
 	"golang.org/x/text/language"
 )
 
+// type PageType string
+
+// const (
+// 	Index PageType = "Index"
+// 	About PageType = "About"
+// 	Music PageType = "Music"
+// )
+
 var serverLangs = []language.Tag{
 	language.AmericanEnglish,
 	language.Japanese,

@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"github.com/gqo/ggmfdev/internal/langsupport"
-	"github.com/gqo/ggmfdev/internal/loadtext"
 	"github.com/gqo/ggmfdev/internal/randalbum"
+	"golang.org/x/text/language"
 )
 
 func main() {
@@ -29,15 +29,12 @@ func main() {
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	lang := langsupport.DetermineLanguage(r)
-
 	if r.URL.Path != "/" {
 		http.Redirect(w, r, "/", http.StatusFound)
 		return
 	}
-	t := template.Must(template.ParseFiles("../../web/template/index.html"))
-	Data := loadtext.GetPageText(loadtext.Index, lang)
-	t.Execute(w, Data)
+
+	serveStaticMultiLang(w, r, "index")
 }
 
 func faviconHandler(w http.ResponseWriter, r *http.Request) {
@@ -50,7 +47,8 @@ func cssHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
-	http.ServeFile(w, r, "../../web/static/about.html")
+	// http.ServeFile(w, r, "../../web/static/about.html")
+	serveStaticMultiLang(w, r, "about")
 }
 
 func musicHandler(w http.ResponseWriter, r *http.Request) {
@@ -77,4 +75,20 @@ func jpHandler(w http.ResponseWriter, r *http.Request) {
 
 	http.SetCookie(w, &cookie)
 	http.Redirect(w, r, "/", http.StatusFound)
+}
+
+func serveStaticMultiLang(w http.ResponseWriter, r *http.Request, page string) {
+	lang := langsupport.DetermineLanguage(r)
+
+	filepath := "../../web/static/"
+	switch lang {
+	case language.AmericanEnglish:
+		filepath += "en/"
+	case language.Japanese:
+		filepath += "jp/"
+	}
+	filepath += page + ".html"
+
+	w.Header().Set("Cache-Control", "no-store")
+	http.ServeFile(w, r, filepath)
 }
