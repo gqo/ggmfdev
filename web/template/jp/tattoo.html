@@ -12,7 +12,7 @@
                     <h1>タトゥー</h1>
                 </header>
                 <p>
-                    <a href="/">前へ</a>
+                    <a class="linkbutton" href="/">前へ</a>
                     <br><br><br>
                     タトゥーが俺の生活の一部になったのは、ごく最近（ 2020年末現在）のことです。めちゃカッコいいだけでなく、タトゥーのおかげで俺の（時々好きじゃない）体に好きなものを集められます。
                     <br><br>
@@ -21,7 +21,7 @@
                     <ul>
                         {{ range .Contents }}
                         <li>
-                            <strong>{{ .Name }}</strong>
+                            <strong>{{ .Name.JP }}</strong>
                         </li>
                         <ul>
                             {{ range .Artists }}
@@ -44,7 +44,7 @@
                                 <ul>
                                     {{ range .Notes }}
                                     <li>
-                                        {{ .JPText }}
+                                        {{ .JP }}
                                     </li>
                                     {{ end }}
                                 </ul>

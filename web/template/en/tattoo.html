@@ -12,7 +12,7 @@
                     <h1>Tattoos</h1>
                 </header>
                 <p>
-                    <a href="/">back<</a>
+                    <a class="linkbutton" href="/">back<</a>
                     <br><br><br>
                     Tattoos have only recently (as of late 2020) become a bigger part of my life. Besides being pretty fuckin' cool, they've allowed me to curate a collection of things I love on a body that I sometimes don't.
                     <br><br>
@@ -21,7 +21,7 @@
                     <ul>
                         {{ range .Contents }}
                         <li>
-                            <strong>{{ .Name }}</strong>
+                            <strong>{{ .Name.EN }}</strong>
                         </li>
                         <ul>
                             {{ range .Artists }}
@@ -39,6 +39,15 @@
                                     {{ end }}
                                 {{ else }}
                                     Private Studio
+                                {{ end }}
+                                {{ if .Notes }}
+                                <ul>
+                                    {{ range .Notes }}
+                                    <li>
+                                        {{ .EN }}
+                                    </li>
+                                    {{ end }}
+                                </ul>
                                 {{ end }}
                             </li>
                             {{ end }}

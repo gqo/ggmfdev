@@ -7,23 +7,23 @@ import (
 	"os"
 )
 
-type Note struct {
-	ENText string `json:"en"`
-	JPText string `json:"jp"`
+type MultiText struct {
+	EN string `json:"en"`
+	JP string `json:"jp"`
 }
 
 type Artist struct {
-	Name         string `json:"name"`
-	Location     string `json:"location"`
-	LocationLink string `json:"location_link"`
-	Instagram    string `json:"instagram"`
-	IsTattooed   bool   `json:"is_tattooed"`
-	Notes        []Note `json:"notes"`
+	Name         string      `json:"name"`
+	Location     string      `json:"location"`
+	LocationLink string      `json:"location_link"`
+	Instagram    string      `json:"instagram"`
+	IsTattooed   bool        `json:"is_tattooed"`
+	Notes        []MultiText `json:"notes"`
 }
 
 type Location struct {
-	Name    string   `json:"name"`
-	Artists []Artist `json:"artists"`
+	Name    MultiText `json:"name"`
+	Artists []Artist  `json:"artists"`
 }
 
 type Locations struct {
@@ -46,6 +46,5 @@ func GetTattooArtists() Locations {
 
 	json.Unmarshal(bytes, &Data)
 
-	log.Println(Data)
 	return Data
 }

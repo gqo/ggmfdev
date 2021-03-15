@@ -1,7 +1,10 @@
 {
     "locations": [
         {
-            "name": "Lenapehoking (NYC)",
+            "name": {
+                "en": "Lenapehoking (NYC)",
+                "jp": "レナペホキング（ニューヨーク市）"
+            },
             "artists": [
                 {
                     "name": "Zi (之)",
@@ -51,7 +54,10 @@
             ]
         },
         {
-            "name": "Poughkeepsie",
+            "name": {
+                "en": "Poughkeepsie",
+                "jp": "ポキプシー"
+            },
             "artists": [
                 {
                     "name": "Brian Faulk",
