@@ -8,6 +8,7 @@ import (
 
 	"github.com/gqo/ggmfdev/internal/langsupport"
 	"github.com/gqo/ggmfdev/internal/randalbum"
+	"github.com/gqo/ggmfdev/internal/tattoo"
 	"golang.org/x/text/language"
 )
 
@@ -21,6 +22,7 @@ func main() {
 	http.HandleFunc("/main.css", cssHandler)
 	http.HandleFunc("/about", aboutHandler)
 	http.HandleFunc("/music", musicHandler)
+	http.HandleFunc("/tattoo", tattooHandler)
 	http.HandleFunc("/eng", engHandler)
 	http.HandleFunc("/jp", jpHandler)
 
@@ -34,7 +36,10 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	serveStaticMultiLang(w, r, "index")
+	filepath := getPagePath(r, "index", "static")
+
+	w.Header().Set("Cache-Control", "no-store")
+	http.ServeFile(w, r, filepath)
 }
 
 func faviconHandler(w http.ResponseWriter, r *http.Request) {
@@ -47,13 +52,27 @@ func cssHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
-	// http.ServeFile(w, r, "../../web/static/about.html")
-	serveStaticMultiLang(w, r, "about")
+	filepath := getPagePath(r, "about", "static")
+
+	w.Header().Set("Cache-Control", "no-store")
+	http.ServeFile(w, r, filepath)
 }
 
 func musicHandler(w http.ResponseWriter, r *http.Request) {
-	t := template.Must(template.ParseFiles("../../web/template/music.html"))
+	filepath := getPagePath(r, "music", "template")
+
+	t := template.Must(template.ParseFiles(filepath))
 	Data := randalbum.GetAlbum()
+
+	t.Execute(w, Data)
+}
+
+func tattooHandler(w http.ResponseWriter, r *http.Request) {
+	filepath := getPagePath(r, "tattoo", "template")
+
+	t := template.Must(template.ParseFiles(filepath))
+	Data := tattoo.GetTattooArtists()
+
 	t.Execute(w, Data)
 }
 
@@ -77,18 +96,17 @@ func jpHandler(w http.ResponseWriter, r *http.Request) {
 	http.Redirect(w, r, "/", http.StatusFound)
 }
 
-func serveStaticMultiLang(w http.ResponseWriter, r *http.Request, page string) {
+func getPagePath(r *http.Request, pageName, pageType string) string {
 	lang := langsupport.DetermineLanguage(r)
 
-	filepath := "../../web/static/"
+	filepath := "../../web/" + pageType + "/"
 	switch lang {
 	case language.AmericanEnglish:
 		filepath += "en/"
 	case language.Japanese:
 		filepath += "jp/"
 	}
-	filepath += page + ".html"
+	filepath += pageName + ".html"
 
-	w.Header().Set("Cache-Control", "no-store")
-	http.ServeFile(w, r, filepath)
+	return filepath
 }

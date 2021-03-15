@@ -1,0 +1,67 @@
+{
+    "locations": [
+        {
+            "name": "Lenapehoking (NYC)",
+            "artists": [
+                {
+                    "name": "Zi (之)",
+                    "location": "Moonrise Tattoo",
+                    "location_link": "www.instagram.com/moonrise.tattoo/",
+                    "instagram": "https://www.instagram.com/hotbirdbath/",
+                    "is_tattooed": true,
+                    "notes": null
+                },
+                {
+                    "name": "Matt Lamourt",
+                    "location": "Fleur Noire Tattoo",
+                    "location_link": "https://www.instagram.com/fleurnoiretattoo/",
+                    "instagram": "https://www.instagram.com/bedtime_spirits/",
+                    "is_tattooed": true,                    
+                    "notes": null
+                },
+                {
+                    "name": "Jackson",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "https://www.instagram.com/jackson.tattoos/",
+                    "is_tattooed": true,                    
+                    "notes": null
+                },
+                {
+                    "name": "Sasha Brat",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "https://www.instagram.com/bigolebrat/",
+                    "is_tattooed": true,                    
+                    "notes": [
+                        {
+                            "en": "Note: Moving to Austin in June.",
+                            "jp": "注：6月にオースティンに引っ越すそうです。"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gossamer Rozen",
+                    "location": "Somewhere",
+                    "location_link": "https://www.instagram.com/somewhere.nyc/",
+                    "instagram": "https://www.instagram.com/grelysian/",
+                    "is_tattooed": true,                    
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": "Poughkeepsie",
+            "artists": [
+                {
+                    "name": "Brian Faulk",
+                    "location": "Hudson Valley Tattoo Co",
+                    "location_link": "https://www.instagram.com/hudsonvalleytattooco/",
+                    "instagram": "https://www.instagram.com/brianfaulktattoo/",
+                    "is_tattooed": true, 
+                    "notes": null
+                }
+            ] 
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>タトゥー</title>
+        <meta charset="utf-8">
+        <link href="main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+                <header>
+                    <h1>タトゥー</h1>
+                </header>
+                <p>
+                    <a href="/">前へ</a>
+                    <br><br><br>
+                    タトゥーが俺の生活の一部になったのは、ごく最近（ 2020年末現在）のことです。めちゃカッコいいだけでなく、タトゥーのおかげで俺の（時々好きじゃない）体に好きなものを集められます。
+                    <br><br>
+                    ここでは、好きなアルティストのリストを紹介します（名前の右にある⋆は俺がタトゥーを入れたことがあるという意味です）。
+                    <br><br>
+                    <ul>
+                        {{ range .Contents }}
+                        <li>
+                            <strong>{{ .Name }}</strong>
+                        </li>
+                        <ul>
+                            {{ range .Artists }}
+                            <li>
+                                {{ .Name }} 
+                                {{ if .IsTattooed }}
+                                ⋆
+                                {{ end }}
+                                 // <a href="{{ .Instagram }}">インスタグラム</a> // 
+                                {{ if .Location }}
+                                    {{ if .LocationLink }}
+                                        <a href="{{ .LocationLink }}"> {{ .Location }} </a>
+                                    {{ else }}
+                                        {{ .Location }}
+                                    {{ end }}
+                                {{ else }}
+                                    プライベートスタジオ
+                                {{ end }}
+                                {{ if .Notes }}
+                                <ul>
+                                    {{ range .Notes }}
+                                    <li>
+                                        {{ .JPText }}
+                                    </li>
+                                    {{ end }}
+                                </ul>
+                                {{ end }}
+                            </li>
+                            {{ end }}
+                        </ul>
+                        {{ end }}
+                    </ul>
+                </p>
+            </div>
+        </main>
+    </body>
+</html>
+
