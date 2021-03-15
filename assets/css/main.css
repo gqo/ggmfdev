@@ -123,3 +123,20 @@ img {
 	display: block;
 	margin: 0 auto
 }
+
+p.small {
+	font-size: 1rem;
+	text-align: center;
+}
+
+a.linkbutton {
+	text-decoration: none;
+}
+
+a.linkbutton:hover {
+	text-decoration: underline;
+}
+
+a.linkbutton:visited {
+	color: #000;
+}

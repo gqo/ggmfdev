@@ -9,22 +9,29 @@
         <main class="page-content" aria-label="Content">
             <div class="w">
                 <header>
-                    <h1>graeme ferguson</h1>
-                    <p class="small">english/日本語</p>
+                    <!-- field 0 -->
+                    <h1>{{index .Text 0}}</h1>
+                    <p class="small">
+                        <a class="linkbutton" href="/eng">english</a>/<a class="linkbutton" href="/jp">日本語</a>
+                    </p>
                 </header>
                 <ul>
                     <li>
-                        <a href="/about">about</a>
+                        <!-- field 1 -->
+                        <a href="/about">{{index .Text 1}}</a>
                     </li>
                     <li>
-                        important things:
+                        <!-- field 2 -->
+                        {{index .Text 2}}:
                     </li>
                     <ul>
                         <li>
-                            <a href="/music">music</a>
+                            <!-- field 3 -->
+                            <a href="/music">{{index .Text 3}}</a>
                         </li>
                         <li>
-                            tattoos
+                            <!-- field 4 -->
+                            {{index .Text 4}}
                         </li>
                     </ul>
                 </ul>
