@@ -24,7 +24,14 @@ var matcher = language.NewMatcher(serverLangs)
 func DetermineLanguage(r *http.Request) language.Tag {
 	lang, _ := r.Cookie("lang")
 	accept := r.Header.Get("Accept-Language")
-	tag, _ := language.MatchStrings(matcher, lang.Value, accept)
+
+	var tag language.Tag
+
+	if lang == nil {
+		tag, _ = language.MatchStrings(matcher, accept)
+	} else {
+		tag, _ = language.MatchStrings(matcher, lang.Value, accept)
+	}
 
 	return tag
 }
