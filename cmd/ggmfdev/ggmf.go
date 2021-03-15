@@ -64,7 +64,10 @@ func musicHandler(w http.ResponseWriter, r *http.Request) {
 	t := template.Must(template.ParseFiles(filepath))
 	Data := randalbum.GetAlbum()
 
-	t.Execute(w, Data)
+	err := t.Execute(w, Data)
+	if err != nil {
+		log.Println(err)
+	}
 }
 
 func tattooHandler(w http.ResponseWriter, r *http.Request) {
@@ -73,7 +76,10 @@ func tattooHandler(w http.ResponseWriter, r *http.Request) {
 	t := template.Must(template.ParseFiles(filepath))
 	Data := tattoo.GetTattooArtists()
 
-	t.Execute(w, Data)
+	err := t.Execute(w, Data)
+	if err != nil {
+		log.Println(err)
+	}
 }
 
 func engHandler(w http.ResponseWriter, r *http.Request) {
