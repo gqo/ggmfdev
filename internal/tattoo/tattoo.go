@@ -59,7 +59,14 @@ func (a Locations) Swap(i, j int) {
 	a.Contents[i], a.Contents[j] = a.Contents[j], a.Contents[i]
 }
 
+var tattooArtists Locations
+
 func GetTattooArtists() Locations {
+	return tattooArtists
+}
+
+func init() {
+	log.Println("tattoo: init(): Starting tattoo data initialization.")
 	file, err := os.Open("../../assets/docs/tattoo_artists.json")
 	if err != nil {
 		log.Println("tattoo: GetTattooArtists(): Unable to open tattoo_artists.json")
@@ -80,5 +87,6 @@ func GetTattooArtists() Locations {
 	}
 	sort.Sort(Data)
 
-	return Data
+	tattooArtists = Data
+	log.Println("tattoo: init(): Finished.")
 }
