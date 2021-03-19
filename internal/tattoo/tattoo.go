@@ -5,6 +5,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"sort"
 )
 
 type MultiText struct {
@@ -26,8 +27,36 @@ type Location struct {
 	Artists []Artist  `json:"artists"`
 }
 
+// Implements the sort.Interface
+func (a Location) Len() int { return len(a.Artists) }
+func (a Location) Less(i, j int) bool {
+	leftName, rightName := a.Artists[i].Name, a.Artists[j].Name
+	switch {
+	case leftName == rightName:
+		return a.Artists[i].Instagram < a.Artists[j].Instagram
+	case leftName == "":
+		return false
+	case rightName == "":
+		return true
+	default:
+		return leftName < rightName
+	}
+}
+func (a Location) Swap(i, j int) {
+	a.Artists[i], a.Artists[j] = a.Artists[j], a.Artists[i]
+}
+
 type Locations struct {
 	Contents []Location `json:"locations"`
+}
+
+// Implements the sort.Interface
+func (a Locations) Len() int { return len(a.Contents) }
+func (a Locations) Less(i, j int) bool {
+	return a.Contents[i].Name.EN < a.Contents[j].Name.EN
+}
+func (a Locations) Swap(i, j int) {
+	a.Contents[i], a.Contents[j] = a.Contents[j], a.Contents[i]
 }
 
 func GetTattooArtists() Locations {
@@ -45,6 +74,11 @@ func GetTattooArtists() Locations {
 	var Data Locations
 
 	json.Unmarshal(bytes, &Data)
+
+	for i := range Data.Contents {
+		sort.Sort(Data.Contents[i])
+	}
+	sort.Sort(Data)
 
 	return Data
 }

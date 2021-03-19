@@ -140,3 +140,16 @@ a.linkbutton:hover {
 a.linkbutton:visited {
 	color: #000;
 }
+
+p.center {
+	text-align: center;
+}
+
+/* unused overflow styling */
+/* div.overflow {
+	width: 150px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+} */

@@ -17,8 +17,11 @@
                     <br><br><br>
                     タトゥーが僕の生活の一部になったのは、ごく最近（ 2020年末）のことです。ただたカッコいいだけでなく、タトゥーのおかげで僕の体に好きなものを集めることができます。
                     <br><br>
-                    ここでは、僕の好きなアーティストのリストを紹介します（名前の右にある⋆は僕がタトゥーを入れてもらったことがあるという意味です）。
+                    ここでは、僕の好きなアーティストのリストを紹介します（名前の右にある+++は僕がタトゥーを入れてもらったことがあるという意味です）。
                     <br><br>
+                    <p class="center"> 
+                        なまえ // インスタグラム // スタジオ
+                    </p>
                     <ul>
                         {{ range .Contents }}
                         <li>
@@ -27,11 +30,16 @@
                         <ul>
                             {{ range .Artists }}
                             <li>
-                                {{ .Name }} 
-                                {{ if .IsTattooed }}
-                                ⋆
+                                {{ if .Name }}
+                                    {{ .Name }}
+                                {{ else }}
+                                    —
                                 {{ end }}
-                                 // <a href="{{ .Instagram }}">インスタグラム</a> // 
+                                {{ if .IsTattooed }}
+                                    +++
+                                {{ end }}
+                                
+                                 // <a href="https://www.instagram.com/{{ .Instagram }}/">{{ .Instagram }}</a> // 
                                 {{ if .Location }}
                                     {{ if .LocationLink }}
                                         <a href="{{ .LocationLink }}"> {{ .Location }} </a>

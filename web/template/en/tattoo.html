@@ -17,8 +17,11 @@
                     <br><br><br>
                     Tattoos have only recently (as of late 2020) become a bigger part of my life. Besides being pretty fuckin' cool, they've allowed me to curate a collection of things I love on a body that I sometimes don't.
                     <br><br>
-                    Here's a list of artists I like (a ⋆ to the right of their name means I've been personally tattooed by them):
+                    Here's a list of artists I like (a +++ to the right of their name means I've been personally tattooed by them):
                     <br><br>
+                    <p class="center"> 
+                        name // instagram // studio
+                    </p>
                     <ul>
                         {{ range .Contents }}
                         <li>
@@ -27,11 +30,15 @@
                         <ul>
                             {{ range .Artists }}
                             <li>
-                                {{ .Name }} 
-                                {{ if .IsTattooed }}
-                                ⋆
+                                {{ if .Name }}
+                                    {{ .Name }}
+                                {{ else }}
+                                    —
                                 {{ end }}
-                                 // <a href="{{ .Instagram }}">Instagram</a> // 
+                                {{ if .IsTattooed }}
+                                    +++
+                                {{ end }}
+                                 // <a href="https://www.instagram.com/{{ .Instagram }}/">{{ .Instagram }}</a> // 
                                 {{ if .Location }}
                                     {{ if .LocationLink }}
                                         <a href="{{ .LocationLink }}"> {{ .Location }} </a>

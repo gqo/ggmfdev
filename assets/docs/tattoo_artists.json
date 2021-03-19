@@ -7,18 +7,18 @@
             },
             "artists": [
                 {
-                    "name": "Zi (之)",
+                    "name": "之",
                     "location": "Moonrise Tattoo",
                     "location_link": "https://www.instagram.com/moonrise.tattoo/",
-                    "instagram": "https://www.instagram.com/hotbirdbath/",
+                    "instagram": "hotbirdbath",
                     "is_tattooed": true,
                     "notes": null
                 },
                 {
-                    "name": "Matt Lamourt",
+                    "name": "Matt",
                     "location": "Fleur Noire Tattoo",
                     "location_link": "https://www.instagram.com/fleurnoiretattoo/",
-                    "instagram": "https://www.instagram.com/bedtime_spirits/",
+                    "instagram": "bedtime_spirits",
                     "is_tattooed": true,                    
                     "notes": null
                 },
@@ -26,15 +26,15 @@
                     "name": "Jackson",
                     "location": null,
                     "location_link": null,
-                    "instagram": "https://www.instagram.com/jackson.tattoos/",
+                    "instagram": "jackson.tattoos",
                     "is_tattooed": true,                    
                     "notes": null
                 },
                 {
-                    "name": "Sasha Brat",
+                    "name": "Sasha",
                     "location": null,
                     "location_link": null,
-                    "instagram": "https://www.instagram.com/bigolebrat/",
+                    "instagram": "bigolebrat",
                     "is_tattooed": true,                    
                     "notes": [
                         {
@@ -44,11 +44,259 @@
                     ]
                 },
                 {
-                    "name": "Gossamer Rozen",
+                    "name": "Gossamer",
                     "location": "Somewhere",
                     "location_link": "https://www.instagram.com/somewhere.nyc/",
-                    "instagram": "https://www.instagram.com/grelysian/",
+                    "instagram": "grelysian",
                     "is_tattooed": true,                    
+                    "notes": null
+                },
+                {
+                    "name": "Zachary",
+                    "location": "Smallshop Tattoo",
+                    "location_link": "https://www.instagram.com/smallshoptattoo/",
+                    "instagram": "babysfirstcig",
+                    "is_tattooed": true,
+                    "notes": null
+                },
+                {
+                    "name": "Stephen",
+                    "location": "Yarrow Studio",
+                    "location_link": "https://www.instagram.com/yarrow.studio/",
+                    "instagram": "wonkycube",
+                    "is_tattooed": true,
+                    "notes": null
+                },
+                {
+                    "name": null,
+                    "location": "山寨Trading公司",
+                    "location_link": "https://www.instagram.com/shanzhaitradingco/",
+                    "instagram": "eeeeeeeeee.eeeeeeee.eeeeeeeeee",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Frances",
+                    "location": "Yarrow Studio",
+                    "location_link": "https://www.instagram.com/yarrow.studio/",
+                    "instagram": "fksegismundo",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Carson",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "carsonfoleynyc",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": null,
+                    "location": "Secret Door NYC",
+                    "location_link": "https://www.instagram.com/thesecretdoornyc/",
+                    "instagram": "asoultobare",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Kevin",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "kevin.tattoos",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Llewellyn",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "______mr.blue_______",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Matt",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "mattcarignan",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Cierson",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "honeypokes",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "紋士 (Monji)",
+                    "location": "Flyrite Tattoo",
+                    "location_link": "https://www.instagram.com/p/CMaob5TFvGT/",
+                    "instagram": "monjitattoo",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Jesso",
+                    "location": "Moonrise Tattoo",
+                    "location_link": "https://www.instagram.com/moonrise.tattoo/",
+                    "instagram": "sleep.on.frogs",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Michelle",
+                    "location": "Yarrow Studio",
+                    "location_link": "https://www.instagram.com/yarrow.studio/",
+                    "instagram": "sketchupandfries",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "M",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "gentlepokes",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Sammy",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "birthdae",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Pobi",
+                    "location": "Fleur Noire Tattoo",
+                    "location_link": "https://www.instagram.com/fleurnoiretattoo/",
+                    "instagram": "pobitattooo",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Rosa",
+                    "location": "Welcome Home",
+                    "location_link": "https://www.instagram.com/welcomehome.studio/",
+                    "instagram": "rosalaura_",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Moth",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "mothmorgenson",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Erika",
+                    "location": "Welcome Home",
+                    "location_link": "https://www.instagram.com/welcomehome.studio/",
+                    "instagram": "erikavendett",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Adria",
+                    "location": "Smallshop Tattoo",
+                    "location_link": "https://www.instagram.com/smallshoptattoo/",
+                    "instagram": "adriamercuri",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Gabrielle",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "gentle.oriental",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Emma",
+                    "location": "Somewhere",
+                    "location_link": "https://www.instagram.com/somewhere.nyc/",
+                    "instagram": "sun.doesnt.set",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Ella",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "sklaw_",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Jasper",
+                    "location": "Spitball Studio",
+                    "location_link": "https://www.instagram.com/dadstabs/",
+                    "instagram": "wasper.wames",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Henbo",
+                    "location": "Good Luck NYC",
+                    "location_link": "https://www.instagram.com/good_luck_nyc/",
+                    "instagram": "henbohenning",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Simon",
+                    "location": "Estuary Tattoo",
+                    "location_link": "https://www.instagram.com/estuarytattoo/",
+                    "instagram": "squids.ink",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Ariel",
+                    "location": "Blind Reason Tattoo",
+                    "location_link": "https://www.instagram.com/blindreasontattoo/",
+                    "instagram": "arielisgood",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Ling",
+                    "location": "Blind Reason Tattoo",
+                    "location_link": "https://www.instagram.com/blindreasontattoo/",
+                    "instagram": "lingjin_tattoo",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Rachel",
+                    "location": "Yant Studio",
+                    "location_link": "https://www.instagram.com/yantstudio/",
+                    "instagram": "rraeink",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Ben",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "benfishermin",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": null,
+                    "location": "Moonrise Tattoo",
+                    "location_link": "https://www.instagram.com/moonrise.tattoo/",
+                    "instagram": "gombas007",
+                    "is_tattooed": false,
                     "notes": null
                 }
             ]
@@ -60,14 +308,246 @@
             },
             "artists": [
                 {
-                    "name": "Brian Faulk",
+                    "name": "Brian",
                     "location": "Hudson Valley Tattoo Co",
                     "location_link": "https://www.instagram.com/hudsonvalleytattooco/",
-                    "instagram": "https://www.instagram.com/brianfaulktattoo/",
+                    "instagram": "brianfaulktattoo",
                     "is_tattooed": true, 
                     "notes": null
                 }
             ] 
+        },
+        {
+            "name": {
+                "en": "Atlanta",
+                "jp": "アトランタ"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": "Toki Tattoo",
+                    "location_link": "https://www.instagram.com/tokitattooatl/",
+                    "instagram": "tokipar",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Stockholm",
+                "jp": "ストックホルム"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": "Deep Wood Tattoo",
+                    "location_link": "https://www.instagram.com/deepwoodtattoo/",
+                    "instagram": "bitchinkworldwide",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Brussels",
+                "jp": "ブリュッセル市"
+            },
+            "artists": [
+                {
+                    "name": "Lenny",
+                    "location": "N U A G E",
+                    "location_link": "https://www.instagram.com/nuage.ttt/",
+                    "instagram": "naboy_tattoo",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Portland, OR",
+                "jp": "ポートランド、オレゴン州"
+            },
+            "artists": [
+                {
+                    "name": "Kat",
+                    "location": "Day Dream Tattoo",
+                    "location_link": "https://www.instagram.com/daydreamtattoo/",
+                    "instagram": "happyfishhead",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Asheville, NC",
+                "jp": "アシュビル、ノースカロライナ州"
+            },
+            "artists": [
+                {
+                    "name": "Esteban",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "ques0fresco",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Glasgow",
+                "jp": "グラスゴー"
+            },
+            "artists": [
+                {
+                    "name": "Stephen",
+                    "location": "Deviltown Electric Tattoo",
+                    "location_link": "https://www.instagram.com/deviltowntattoo/",
+                    "instagram": "sspeirs_tattoos",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Amsterdam",
+                "jp": "アムステルダム"
+            },
+            "artists": [
+                {
+                    "name": "Gakkin",
+                    "location": "G X X X",
+                    "location_link": "https://www.instagram.com/g_x_x_x_/",
+                    "instagram": "gakkinx",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Los Angeles",
+                "jp": "ロサンゼルス"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "crocodile.jackson",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Sasebo",
+                "jp": "佐世保市"
+            },
+            "artists": [
+                {
+                    "name": "ぺこ (Peco)",
+                    "location": "Gentle Ink Tattoo",
+                    "location_link": "https://www.instagram.com/gentle.ink.tattoo/",
+                    "instagram": "peco_tattooer",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Seoul",
+                "jp": "ソウル"
+            },
+            "artists": [
+                {
+                    "name": "Moon Cheon",
+                    "location": "Kodzunak",
+                    "location_link": "https://www.instagram.com/kodzunak/",
+                    "instagram": "moon.cheon",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Kiryu",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "kiryu_tattoo",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Bidan",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "bidan_gil",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Vasak",
+                    "location": "Lighthouse Professional Tattoo",
+                    "location_link": "https://www.instagram.com/lighthouse_professional_tattoo/",
+                    "instagram": "vasak__",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Pitta",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "pitta_kkm",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "London",
+                "jp": "ロンドン"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": "Parliament Tattoo",
+                    "location_link": "https://www.instagram.com/parliamenttattoo/",
+                    "instagram": "woozymachinetattoos",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Berlin",
+                "jp": "ベルリン"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": "Baby Berlin Tattoo",
+                    "location_link": "https://www.instagram.com/baby___berlin/",
+                    "instagram": "bowsertattoos",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": null,
+                    "location": "Deep Wood Tattoo",
+                    "location_link": "https://www.instagram.com/deepwoodtattoo/",
+                    "instagram": "frogmagik",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
         }
     ]
 }
