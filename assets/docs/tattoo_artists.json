@@ -296,6 +296,70 @@
                     "location": "Moonrise Tattoo",
                     "location_link": "https://www.instagram.com/moonrise.tattoo/",
                     "instagram": "gombas007",
+                    "is_tattooed": true,
+                    "notes": null
+                },
+                {
+                    "name": "Julian",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "julianllouve",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Celeste",
+                    "location": "Yarrow Studio",
+                    "location_link": "https://www.instagram.com/yarrow.studio/",
+                    "instagram": "limbforest",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Doreen",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "flesh_and_fluid",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Astrid",
+                    "location": "Somewhere",
+                    "location_link": "https://www.instagram.com/somewhere.nyc/",
+                    "instagram": "astrid.elisabeth",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Talya",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "talyaalsbergart",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Rachel",
+                    "location": "Moonrise Tattoo",
+                    "location_link": "https://www.instagram.com/moonrise.tattoo/",
+                    "instagram": "soft__cake",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Asreen",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "gaygraphicdesigner",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Carlos",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "silvagrunt",
                     "is_tattooed": false,
                     "notes": null
                 }
@@ -328,6 +392,14 @@
                     "location": "Toki Tattoo",
                     "location_link": "https://www.instagram.com/tokitattooatl/",
                     "instagram": "tokipar",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Gracie",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "threedaystattoos",
                     "is_tattooed": false,
                     "notes": null
                 }
@@ -399,6 +471,22 @@
         },
         {
             "name": {
+                "en": "Greensboro, NC",
+                "jp": "グリーンズボロ、ノースカロライナ州"
+            },
+            "artists": [
+                {
+                    "name": "Frankee",
+                    "location": "Seven Sagas Tattoo",
+                    "location_link": "https://www.instagram.com/sevensagastattoo/",
+                    "instagram": "carrion.beetle",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
                 "en": "Glasgow",
                 "jp": "グラスゴー"
             },
@@ -463,6 +551,22 @@
         },
         {
             "name": {
+                "en": "Tokyo",
+                "jp": "東京都"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": "Up Rise Tattoo",
+                    "location_link": null,
+                    "instagram": "montamorino",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
                 "en": "Seoul",
                 "jp": "ソウル"
             },
@@ -506,6 +610,38 @@
                     "instagram": "pitta_kkm",
                     "is_tattooed": false,
                     "notes": null
+                },
+                {
+                    "name": "Suzani",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "_suzani",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Oozy",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "oozy_tattoo",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Fusaki",
+                    "location": "Kodzunak",
+                    "location_link": "https://www.instagram.com/kodzunak/",
+                    "instagram": "fu4ki",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Yaku",
+                    "location": "Kodzunak",
+                    "location_link": "https://www.instagram.com/kodzunak/",
+                    "instagram": "yaku__man",
+                    "is_tattooed": false,
+                    "notes": null
                 }
             ]
         },
@@ -544,6 +680,70 @@
                     "location": "Deep Wood Tattoo",
                     "location_link": "https://www.instagram.com/deepwoodtattoo/",
                     "instagram": "frogmagik",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Tiohtià:ke (Montréal)",
+                "jp": "Tiohtià:ke （モントリオール）"
+            },
+            "artists": [
+                {
+                    "name": "Char",
+                    "location": "Studio Jawbreaker",
+                    "location_link": null,
+                    "instagram": "charbataille",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Omaha",
+                "jp": "オマハ"
+            },
+            "artists": [
+                {
+                    "name": "Penny",
+                    "location": "Black Squirrel Tattoo Iowa",
+                    "location_link": null,
+                    "instagram": "pennystahr",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Paris",
+                "jp": "パリ"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "maison.metamose",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Tuscon",
+                "jp": "ツーソン"
+            },
+            "artists": [
+                {
+                    "name": "Lewk",
+                    "location": "Sky Island Yacht Club",
+                    "location_link": "https://www.instagram.com/skyisland.yachtclub/",
+                    "instagram": "mr.lewk",
                     "is_tattooed": false,
                     "notes": null
                 }

@@ -21,6 +21,7 @@ func main() {
 	http.HandleFunc("/favicon.ico", faviconHandler)
 	http.HandleFunc("/main.css", cssHandler)
 	http.HandleFunc("/about", aboutHandler)
+	// http.HandleFunc("/contact", contactHandler)
 	http.HandleFunc("/music", musicHandler)
 	http.HandleFunc("/tattoo", tattooHandler)
 	http.HandleFunc("/eng", engHandler)
@@ -53,6 +54,13 @@ func cssHandler(w http.ResponseWriter, r *http.Request) {
 
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
 	filepath := getPagePath(r, "about", "static")
+
+	w.Header().Set("Cache-Control", "no-store")
+	http.ServeFile(w, r, filepath)
+}
+
+func contactHandler(w http.ResponseWriter, r *http.Request) {
+	filepath := getPagePath(r, "contactme", "static")
 
 	w.Header().Set("Cache-Control", "no-store")
 	http.ServeFile(w, r, filepath)
