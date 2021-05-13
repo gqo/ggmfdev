@@ -143,7 +143,7 @@
                     "name": "Jesso",
                     "location": "Moonrise Tattoo",
                     "location_link": "https://www.instagram.com/moonrise.tattoo/",
-                    "instagram": "sleep.on.frogs",
+                    "instagram": "molymoli_",
                     "is_tattooed": false,
                     "notes": null
                 },
@@ -288,7 +288,7 @@
                     "location": null,
                     "location_link": null,
                     "instagram": "benfishermin",
-                    "is_tattooed": false,
+                    "is_tattooed": true,
                     "notes": null
                 },
                 {
@@ -362,6 +362,107 @@
                     "instagram": "silvagrunt",
                     "is_tattooed": false,
                     "notes": null
+                },
+                {
+                    "name": null,
+                    "location": "山寨Trading公司",
+                    "location_link": "https://www.instagram.com/shanzhaitradingco/",
+                    "instagram": "duri4n",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Jojo",
+                    "location": "山寨Trading公司",
+                    "location_link": "https://www.instagram.com/shanzhaitradingco/",
+                    "instagram": "jojotastrophe",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": null,
+                    "location": "Secret Door NYC",
+                    "location_link": "https://www.instagram.com/thesecretdoornyc/",
+                    "instagram": "laroots.tattoos",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Keegan",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "keegandakkar",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Nassim",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "sema.tattoo",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Juan",
+                    "location": "Blind Reason Tattoo",
+                    "location_link": "https://www.instagram.com/blindreasontattoo/",
+                    "instagram": "runamasi",
+                    "is_tattooed": false,
+                    "notes": [
+                        {
+                            "en": "Note: Their other insta is: rune.arte",
+                            "jp": "注：別のインスタは「runa.arte」です。"
+                        }
+                    ]
+                },
+                {
+                    "name": "Dean",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "deanviolante",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Alex",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "alexpetty",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Aaron",
+                    "location": "Gristle Tattoo",
+                    "location_link": "https://www.instagram.com/gristletattoo/",
+                    "instagram": "aaronunser",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Kee Kee",
+                    "location": "Kee Kee's Studio",
+                    "location_link": "https://www.instagram.com/keekees.studio/",
+                    "instagram": "keekee3.0",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Jasmine",
+                    "location": "Yant Studio",
+                    "location_link": "https://www.instagram.com/yantstudio/",
+                    "instagram": "novchild.jpg",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Ocean",
+                    "location": "山寨Trading公司",
+                    "location_link": "https://www.instagram.com/shanzhaitradingco/",
+                    "instagram": "baby.phag",
+                    "is_tattooed": false,
+                    "notes": null
                 }
             ]
         },
@@ -400,6 +501,14 @@
                     "location": null,
                     "location_link": null,
                     "instagram": "threedaystattoos",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Jill",
+                    "location": "Toki Tattoo",
+                    "location_link": "https://www.instagram.com/tokitattooatl/",
+                    "instagram": "jills_nipples",
                     "is_tattooed": false,
                     "notes": null
                 }
@@ -450,6 +559,62 @@
                     "instagram": "happyfishhead",
                     "is_tattooed": false,
                     "notes": null
+                },
+                {
+                    "name": "Liev",
+                    "location": "Rainbow Baby Tattoo",
+                    "location_link": "https://www.instagram.com/rainbowbabytattoo/",
+                    "instagram": "trinketkeeper",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Ori",
+                    "location": "and soon",
+                    "location_link": "https://www.instagram.com/and_soon__/",
+                    "instagram": "o_r_i____",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "James",
+                    "location": "Little Sun Studio",
+                    "location_link": "https://www.instagram.com/little.sun.studio/",
+                    "instagram": "blackmarrowtattoo",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Hope",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "twoheadedgirl__",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Devin",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "trashpartytroll",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": null,
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "dentistpdx",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": null,
+                    "location": "Rainbow Baby Tattoo",
+                    "location_link": "https://www.instagram.com/rainbowbabytattoo/",
+                    "instagram": "_no__lunch",
+                    "is_tattooed": false,
+                    "notes": null
                 }
             ]
         },
@@ -464,6 +629,14 @@
                     "location": null,
                     "location_link": null,
                     "instagram": "ques0fresco",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Linnea",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "linneapastel",
                     "is_tattooed": false,
                     "notes": null
                 }
@@ -581,8 +754,8 @@
                 },
                 {
                     "name": "Kiryu",
-                    "location": null,
-                    "location_link": null,
+                    "location": "Gwangjang House",
+                    "location_link": "https://www.instagram.com/gwangjang_house/",
                     "instagram": "kiryu_tattoo",
                     "is_tattooed": false,
                     "notes": null
@@ -592,8 +765,13 @@
                     "location": null,
                     "location_link": null,
                     "instagram": "bidan_gil",
-                    "is_tattooed": false,
-                    "notes": null
+                    "is_tattooed": true,
+                    "notes": [
+                        {
+                            "en": "Note: Currently working in NYC.",
+                            "jp": "注：今ニューヨーク市に働いっています。"
+                        }
+                    ]
                 },
                 {
                     "name": "Vasak",
@@ -642,6 +820,30 @@
                     "instagram": "yaku__man",
                     "is_tattooed": false,
                     "notes": null
+                },
+                {
+                    "name": "김슬기",
+                    "location": "Gwangjang House",
+                    "location_link": "https://www.instagram.com/gwangjang_house/",
+                    "instagram": "ilove_seulgiroun",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": null,
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "gong_greem",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": null,
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "tattooer_ryuhon",
+                    "is_tattooed": false,
+                    "notes": null
                 }
             ]
         },
@@ -656,6 +858,22 @@
                     "location": "Parliament Tattoo",
                     "location_link": "https://www.instagram.com/parliamenttattoo/",
                     "instagram": "woozymachinetattoos",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": "Georgina",
+                    "location": "Rose of Mercy",
+                    "location_link": "https://www.instagram.com/roseofmercy/",
+                    "instagram": "chop_stick_n_poke",
+                    "is_tattooed": false,
+                    "notes": null
+                },
+                {
+                    "name": null,
+                    "location": "Tout Tout",
+                    "location_link": "https://www.instagram.com/studiotouttout/",
+                    "instagram": "softdyke",
                     "is_tattooed": false,
                     "notes": null
                 }
@@ -744,6 +962,214 @@
                     "location": "Sky Island Yacht Club",
                     "location_link": "https://www.instagram.com/skyisland.yachtclub/",
                     "instagram": "mr.lewk",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Cincinnati",
+                "jp": "シンシナティ"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "beingtattoos",
+                    "is_tattooed": true,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Geneva",
+                "jp": "ジュネーヴ"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": "Double Rayon",
+                    "location_link": "https://www.instagram.com/double_rayon_/",
+                    "instagram": "_el_churros",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Pocumtuc Land (Erving, MA)",
+                "jp": "Pocumtucの土地 （アービング, マサチューセッツ州）"
+            },
+            "artists": [
+                {
+                    "name": "Briar",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "godstooth",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Mexico City",
+                "jp": "メキシコシティ"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": "Los Diablos Tattoo",
+                    "location_link": "https://www.instagram.com/losdiablostattoo/",
+                    "instagram": "doctorhache",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "San Francisco",
+                "jp": "サンフランシスコ"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "ojos_chinitos__",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Katowice",
+                "jp": "カトヴィツェ"
+            },
+            "artists": [
+                {
+                    "name": "Marcelina",
+                    "location": "Pajęczyna Tattoo",
+                    "location_link": "https://www.instagram.com/pajeczyna_tattoo",
+                    "instagram": "marcelina.urbanska",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Beijing",
+                "jp": "北京市"
+            },
+            "artists": [
+                {
+                    "name": null,
+                    "location": "Coconuts Tattoo Parlour",
+                    "location_link": "https://www.instagram.com/coconutstattooparlour/",
+                    "instagram": "snooptattoos",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Meda, Lombardy",
+                "jp": "メーダ, ロンバルディア州"
+            },
+            "artists": [
+                {
+                    "name": "Mattia",
+                    "location": "Mambo Tattoo Shop",
+                    "location_link": "https://www.instagram.com/mambotattooshop/",
+                    "instagram": "mambotattooer",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "New Haven, CT",
+                "jp": "ニューヘイブン, コネチカット州"
+            },
+            "artists": [
+                {
+                    "name": "Rex",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "fcknrx",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Chicago",
+                "jp": "シカゴ"
+            },
+            "artists": [
+                {
+                    "name": "Stephanie",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "feralcatbox",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Taiwan",
+                "jp": "台湾"
+            },
+            "artists": [
+                {
+                    "name": "Toma",
+                    "location": "The Bay Studio Taiwan",
+                    "location_link": "https://www.instagram.com/thebaystudio_taiwan/",
+                    "instagram": "tomatotoyota01",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Prague",
+                "jp": "プラハ"
+            },
+            "artists": [
+                {
+                    "name": "Nikolas",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "brusselsproutsteen",
+                    "is_tattooed": false,
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "name": {
+                "en": "Warsaw",
+                "jp": "ワルシャワ"
+            },
+            "artists": [
+                {
+                    "name": "Lipa",
+                    "location": null,
+                    "location_link": null,
+                    "instagram": "_lipa_",
                     "is_tattooed": false,
                     "notes": null
                 }
