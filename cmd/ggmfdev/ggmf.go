@@ -59,12 +59,12 @@ func aboutHandler(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, filepath)
 }
 
-func contactHandler(w http.ResponseWriter, r *http.Request) {
-	filepath := getPagePath(r, "contactme", "static")
+// func contactHandler(w http.ResponseWriter, r *http.Request) {
+// 	filepath := getPagePath(r, "contactme", "static")
 
-	w.Header().Set("Cache-Control", "no-store")
-	http.ServeFile(w, r, filepath)
-}
+// 	w.Header().Set("Cache-Control", "no-store")
+// 	http.ServeFile(w, r, filepath)
+// }
 
 func musicHandler(w http.ResponseWriter, r *http.Request) {
 	filepath := getPagePath(r, "music", "template")
@@ -119,6 +119,9 @@ func getPagePath(r *http.Request, pageName, pageType string) string {
 		filepath += "en/"
 	case language.Japanese:
 		filepath += "jp/"
+	default:
+		log.Println("main: getPathPath(): Could not match language.")
+		filepath += "en/" // Default to English
 	}
 	filepath += pageName + ".html"
 
