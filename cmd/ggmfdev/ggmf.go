@@ -8,6 +8,7 @@ import (
 
 	"github.com/gqo/ggmfdev/internal/langsupport"
 	"github.com/gqo/ggmfdev/internal/randalbum"
+	"github.com/gqo/ggmfdev/internal/soundboard"
 	"github.com/gqo/ggmfdev/internal/tattoo"
 	"golang.org/x/text/language"
 )
@@ -19,11 +20,13 @@ func main() {
 
 	http.HandleFunc("/", indexHandler)
 	http.HandleFunc("/favicon.ico", faviconHandler)
-	http.HandleFunc("/main.css", cssHandler)
+	http.Handle("/assets/",
+		http.StripPrefix("/assets/", http.FileServer(http.Dir("../../assets/"))),
+	)
 	http.HandleFunc("/about", aboutHandler)
-	// http.HandleFunc("/contact", contactHandler)
 	http.HandleFunc("/music", musicHandler)
 	http.HandleFunc("/tattoo", tattooHandler)
+	http.HandleFunc("/soundboard", soundboardHandler)
 	http.HandleFunc("/eng", engHandler)
 	http.HandleFunc("/jp", jpHandler)
 
@@ -47,24 +50,12 @@ func faviconHandler(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, "../../assets/images/favicon.ico")
 }
 
-func cssHandler(w http.ResponseWriter, r *http.Request) {
-	w.Header().Add("Content-Type", "text/css")
-	http.ServeFile(w, r, "../../assets/css/main.css")
-}
-
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
 	filepath := getPagePath(r, "about", "static")
 
 	w.Header().Set("Cache-Control", "no-store")
 	http.ServeFile(w, r, filepath)
 }
-
-// func contactHandler(w http.ResponseWriter, r *http.Request) {
-// 	filepath := getPagePath(r, "contactme", "static")
-
-// 	w.Header().Set("Cache-Control", "no-store")
-// 	http.ServeFile(w, r, filepath)
-// }
 
 func musicHandler(w http.ResponseWriter, r *http.Request) {
 	filepath := getPagePath(r, "music", "template")
@@ -83,6 +74,20 @@ func tattooHandler(w http.ResponseWriter, r *http.Request) {
 
 	t := template.Must(template.ParseFiles(filepath))
 	Data := tattoo.GetTattooArtists()
+
+	err := t.Execute(w, Data)
+	if err != nil {
+		log.Println(err)
+	}
+}
+
+func soundboardHandler(w http.ResponseWriter, r *http.Request) {
+	filepath := getPagePath(r, "soundboard", "template")
+
+	// w.Header().Set("Cache-Control", "no-store")
+	// http.ServeFile(w, r, filepath)
+	t := template.Must(template.ParseFiles(filepath))
+	Data := soundboard.GetClips()
 
 	err := t.Execute(w, Data)
 	if err != nil {

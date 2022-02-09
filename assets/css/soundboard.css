@@ -1,0 +1,48 @@
+/* Credit for the CSS and JS to: https://www.youtube.com/watch?v=ABZhVOkAPcE */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FF91AF;
+}
+
+.container {
+    display: grid;
+    padding: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1em;
+    font-family: 'Nova Mono', monospace;
+}
+
+h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Nova Mono', monospace;
+}
+
+.btn {
+    border: none;
+    background: #ffdee7;
+    padding: 1.5em 1.5em;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #C95D7A;
+    cursor: pointer;
+}

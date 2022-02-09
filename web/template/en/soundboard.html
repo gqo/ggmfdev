@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>soundboard</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex">
+        <link href="/assets/css/soundboard.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>soundboard</h1>
+            {{ range . }}
+                <button class="btn" id="{{ .FileName }}">{{ .Title }}</button>
+            {{ end }}
+        </div>
+        <h3>If you want to download these files, ask me.</h3>
+        <script src="/assets/js/soundboard.js"></script>
+    </body>
+</html>
