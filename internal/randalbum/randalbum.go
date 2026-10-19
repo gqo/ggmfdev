@@ -33,7 +33,7 @@ func GetAlbum() Album {
 
 func init() {
 	log.Println("randalbum: init(): Starting album data initialization.")
-	file, err := os.Open("../../assets/docs/albums.csv")
+	file, err := os.Open("./assets/docs/albums.csv")
 	if err != nil {
 		log.Println("randalbum: init(): Could not open csv file.")
 	}

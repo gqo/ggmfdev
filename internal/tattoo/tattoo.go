@@ -67,7 +67,7 @@ func GetTattooArtists() Locations {
 
 func init() {
 	log.Println("tattoo: init(): Starting tattoo data initialization.")
-	file, err := os.Open("../../assets/docs/tattoo_artists.json")
+	file, err := os.Open("./assets/docs/tattoo_artists.json")
 	if err != nil {
 		log.Println("tattoo: GetTattooArtists(): Unable to open tattoo_artists.json")
 	}

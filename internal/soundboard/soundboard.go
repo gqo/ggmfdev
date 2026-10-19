@@ -18,7 +18,7 @@ func GetClips() []Audio {
 }
 
 func GetAudioFiles(folderName string) []Audio {
-	path := "../../assets/audio/" + folderName + "/"
+	path := "./assets/audio/" + folderName + "/"
 
 	files, err := ioutil.ReadDir(path)
 	if err != nil {

@@ -21,7 +21,7 @@ func main() {
 	http.HandleFunc("/", indexHandler)
 	http.HandleFunc("/favicon.ico", faviconHandler)
 	http.Handle("/assets/",
-		http.StripPrefix("/assets/", http.FileServer(http.Dir("../../assets/"))),
+		http.StripPrefix("/assets/", http.FileServer(http.Dir("./assets/"))),
 	)
 	http.HandleFunc("/about", aboutHandler)
 	http.HandleFunc("/music", musicHandler)
@@ -47,7 +47,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func faviconHandler(w http.ResponseWriter, r *http.Request) {
-	http.ServeFile(w, r, "../../assets/images/favicon.ico")
+	http.ServeFile(w, r, "./assets/images/favicon.ico")
 }
 
 func aboutHandler(w http.ResponseWriter, r *http.Request) {
@@ -118,7 +118,7 @@ func jpHandler(w http.ResponseWriter, r *http.Request) {
 func getPagePath(r *http.Request, pageName, pageType string) string {
 	lang := langsupport.DetermineLanguage(r)
 
-	filepath := "../../web/" + pageType + "/"
+	filepath := "./web/" + pageType + "/"
 	switch lang {
 	case language.AmericanEnglish:
 		filepath += "en/"
